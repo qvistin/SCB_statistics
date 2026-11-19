@@ -118,7 +118,7 @@ Supabase: **Site URL → `https://salaryexplorer.qvist.in`** and add
 
 **3c. Homepage** — bring up the corporate site for `qvist.in` + `www`:
 ```bash
-git clone -b main https://github.com/pyretx/SCB_statistics.git /srv/qvistin-site   # or dev until merged
+git clone -b main https://github.com/qvistin/SCB_statistics.git /srv/qvistin-site   # or dev until merged
 cd /srv/qvistin-site/deploy
 docker compose -f docker-compose.qvistin-site.yml up -d --build
 curl -sSI https://qvist.in                 # 200 (Traefik cert issues on first hit)

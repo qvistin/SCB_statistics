@@ -19,7 +19,7 @@ apt-get update && apt-get install -y git
 
 # Clone the repo into /srv/scb-prod  (production = main branch)
 mkdir -p /srv
-git clone https://github.com/pyretx/SCB_statistics.git /srv/scb-prod
+git clone https://github.com/qvistin/SCB_statistics.git /srv/scb-prod
 cd /srv/scb-prod
 ```
 
