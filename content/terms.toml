@@ -12,10 +12,10 @@
 # ─────────────────────────────────────────────────────────────────────────────
 
 [meta]
-terms_version     = "2026-07-21"
-terms_effective   = "2026-07-21"
-privacy_version   = "2026-07-21"
-privacy_effective = "2026-07-21"
+terms_version     = "2026-11-19"
+terms_effective   = "2026-11-19"
+privacy_version   = "2026-11-19"
+privacy_effective = "2026-11-19"
 
 # Signed-out CTA at the bottom (same pattern as the What-you-get page): most
 # signed-out readers arrive from the create-account dialog and need a way back.
@@ -33,18 +33,18 @@ footer_note = "Questions about these documents: email <a href='mailto:privacy@qv
 [terms]
 heading   = "Terms of Service"
 anchor    = "terms"
-version   = "2026-07-21"
-effective = "2026-07-21"
+version   = "2026-11-19"
+effective = "2026-11-19"
 items = [
-  ["Who we are", "Salary Explorer (salaryexplorer.qvist.in) is an independent product operated by Qvistin, Sweden (<a href='https://qvist.in' target='_blank'>qvist.in</a>). Questions about these terms or your data: email <a href='mailto:privacy@qvist.in'>privacy@qvist.in</a>."],
+  ["Who we are", "Salary Explorer (salaryexplorer.qvist.in) is an independent product operated by Qvistin AB, organisation number 559610-2649, registered office in Gothenburg, Sweden (<a href='https://qvist.in' target='_blank'>qvist.in</a>). Qvistin AB took over Salary Explorer from its founder in November 2026; your account and these terms otherwise stay the same. Questions about these terms or your data: email <a href='mailto:privacy@qvist.in'>privacy@qvist.in</a>."],
   ["The service", "Salary Explorer lets you browse occupational salary statistics published by official statistics providers, and adds its own layer of enhanced analytics, features, tools and functions on top - occupation search and drill-down, multi-year trends, forward projections, gender comparisons, rankings, career paths, cross-country context and more. Original source values are always preserved and labelled separately from anything Salary Explorer calculates (see <a href='methodology' target='_blank'>Data sources & methodology</a>). The service is currently in <b>beta</b>: features may change, be added or be removed, and availability is not guaranteed. Browsing core salary data is free and does not require an account; an account unlocks additional countries and features. The service is free while in beta - we may introduce paid plans for some features in the future, and will announce any such change in advance. Features that are free to browse today are intended to stay that way."],
   ["Your account", "You must be at least 16 years old to create an account. Provide accurate information, keep your password secure, and don't share your account. You are responsible for activity under your account. You can stop using the service at any time and request deletion of your account (see the Privacy Policy below)."],
   ["Acceptable use", "Do not attempt to bypass authentication, subscription, beta-access or other technical access restrictions; do not abuse the feedback form; do not use the service unlawfully. Automated access, scraping or bulk downloading is permitted only through an API or another method expressly made available by Salary Explorer. These restrictions apply to Salary Explorer's service and infrastructure - they do not limit rights granted to you directly by an official statistics provider in relation to the underlying public data. We may suspend or close accounts that violate these terms."],
-  ["Intellectual property", "Salary Explorer's software, design, branding, explanatory text and original functionality belong to Qvistin or its licensors. You may use the service for personal and internal professional purposes, but may not copy, reproduce, resell or create a competing service from Salary Explorer's proprietary content or systems without permission. These restrictions do not limit any rights granted directly by an official statistics provider in relation to the underlying public data."],
+  ["Intellectual property", "Salary Explorer's software, design, branding, explanatory text and original functionality belong to Qvistin AB or its licensors. You may use the service for personal and internal professional purposes, but may not copy, reproduce, resell or create a competing service from Salary Explorer's proprietary content or systems without permission. These restrictions do not limit any rights granted directly by an official statistics provider in relation to the underlying public data."],
   ["Data, not advice", "All figures come from official statistics providers, and anything Salary Explorer calculates on top is labelled as such (see <a href='methodology' target='_blank'>Data sources & methodology</a>). The service provides general statistical information only - it is not salary, career, employment, legal or financial advice. Career-path salary ranges are statistical estimates, not guarantees. Providers may revise figures after publication; the official source is always definitive. See also <a href='disclaimers' target='_blank'>Disclaimers</a>."],
   ["Feedback", "If you send us feedback, bug reports or suggestions, we may use them to operate and improve the service without any obligation to you."],
   ["Third-party data", "The underlying statistics remain subject to each provider's own licence and attribution terms, listed per country on the <a href='methodology' target='_blank'>Data sources & methodology</a> page. Salary Explorer is not affiliated with or endorsed by any statistical provider."],
-  ["No warranty & liability", "The service is provided on an \"as is\" and \"as available\" basis. We do not guarantee that all information will always be complete, current or error-free. You remain responsible for independently evaluating information before making decisions. To the extent permitted by applicable law, Qvistin is not responsible for indirect or consequential losses arising from reliance on the service. Nothing in these terms excludes or limits liability that cannot legally be excluded or limited, including mandatory consumer rights."],
+  ["No warranty & liability", "The service is provided on an \"as is\" and \"as available\" basis. We do not guarantee that all information will always be complete, current or error-free. You remain responsible for independently evaluating information before making decisions. To the extent permitted by applicable law, Qvistin AB is not responsible for indirect or consequential losses arising from reliance on the service. Nothing in these terms excludes or limits liability that cannot legally be excluded or limited, including mandatory consumer rights."],
   ["Changes & termination", "We may update these Terms from time to time. Material changes will be announced before they take effect. By continuing to use the service after the effective date, you agree to the updated Terms. If you do not agree, you must stop using the service and may delete your account. We may change or discontinue features, or discontinue the service, at any time during the beta. Ending the beta or the service does not affect your privacy rights or any pending deletion request."],
   ["Governing law", "These terms are governed by Swedish law. If you are a consumer residing in another country, this choice of law does not remove any mandatory consumer protections that apply to you under the law of your country of residence."],
 ]
@@ -53,10 +53,10 @@ items = [
 [privacy]
 heading   = "Privacy Policy"
 anchor    = "privacy"
-version   = "2026-07-21"
-effective = "2026-07-21"
+version   = "2026-11-19"
+effective = "2026-11-19"
 items = [
-  ["Who is responsible", "Qvistin, Sweden (<a href='https://qvist.in' target='_blank'>qvist.in</a>) is the data controller for personal data processed by Salary Explorer. Contact <a href='mailto:privacy@qvist.in'>privacy@qvist.in</a> for any privacy request."],
+  ["Who is responsible", "Qvistin AB, organisation number 559610-2649, registered office in Gothenburg, Sweden (<a href='https://qvist.in' target='_blank'>qvist.in</a>), is the data controller for personal data processed by Salary Explorer. Contact <a href='mailto:privacy@qvist.in'>privacy@qvist.in</a> for any privacy request."],
   ["What we collect", "If you create an account: your name, email address and authentication credentials. Authentication is provided by Supabase; Salary Explorer does not receive or store your password in readable form. We also store your account's access level (e.g. beta membership). If you submit feedback or a bug report, the report is stored together with your account id and email so we can follow up. Our servers keep standard technical logs (IP addresses, timestamps) for security and troubleshooting."],
   ["What we never do", "We never sell your personal data or share it for advertising, and we do not use advertising trackers or analytics that follow your activity across websites. We disclose limited personal data only to the service providers needed to operate Salary Explorer, as described under <a href='#processors'>Where your data lives</a>. Browsing salary data requires no account."],
   ["Cookies & local storage", "Salary Explorer uses only cookies and similar browser storage that are strictly necessary for authentication, security and operation of the service. We do not use advertising or analytics cookies, and because no optional cookies are used we do not show a cookie-consent banner. Currently in use:<br>• <b>sb_refresh</b> (cookie) · set by Salary Explorer for Supabase authentication · keeps you signed in · session-only, deleted when you close your browser.<br>• <b>stActiveTheme-*</b> (local storage) · Streamlit, the framework the app runs on · remembers your light/dark theme choice · kept until you clear your browser storage.<br>The framework may store similar interface-state entries in local storage; none of them identify you or track you. If we introduce optional analytics or tracking technologies, we will request consent before activating them.", "cookies"],
