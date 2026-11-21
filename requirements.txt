@@ -1,7 +1,10 @@
-streamlit==1.58.0
+streamlit==1.67.0
 pandas==2.2.3
 plotly==5.24.1
-requests==2.32.3
+requests==2.33.0
 supabase==2.31.0
 openpyxl==3.1.5
 pyarrow==24.0.0
+# Not used directly: a floor so the image never resolves a Pillow with the
+# 2026 advisories again (streamlit 1.58 capped it at <13; 1.67 allows <14).
+pillow>=13.0.0
