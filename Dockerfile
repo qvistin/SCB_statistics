@@ -2,9 +2,11 @@ FROM python:3.12-slim
 
 WORKDIR /app
 
-# Install dependencies first (better layer caching)
+# Install dependencies first (better layer caching). The base image ships
+# pip 25.0.1, which has known advisories; 26.2 fixes them all.
 COPY requirements.txt .
-RUN pip install --no-cache-dir -r requirements.txt
+RUN pip install --no-cache-dir --upgrade "pip>=26.2" \
+ && pip install --no-cache-dir -r requirements.txt
 
 # App code
 COPY . .
